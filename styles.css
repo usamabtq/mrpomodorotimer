@@ -98,3 +98,26 @@ button:hover {
 #dark-mode-toggle:hover {
     background-color: #555;
 }
+
+/* Add this to your styles.css */
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #555;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer a {
+    color: #3498db; /* Blue color for the link */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
